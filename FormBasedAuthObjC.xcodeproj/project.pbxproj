@@ -30,7 +30,8 @@
 		60EEC680194476730029E8CA /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EEC67F194476730029E8CA /* libstdc++.6.dylib */; };
 		60EEC682194476D20029E8CA /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EEC681194476D20029E8CA /* libc++.dylib */; };
 		60EEC68619449C960029E8CA /* MyConnectListener.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EEC68519449C960029E8CA /* MyConnectListener.m */; };
-		8284B28E1AEE363E001B5389 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8284B28C1AEE363E001B5389 /* worklight.plist */; };
+		82DA309E1B56A29800433975 /* worklight.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82DA309C1B56A29800433975 /* worklight.plist */; };
+		82DA309F1B56A29800433975 /* WorklightAPI in Resources */ = {isa = PBXBuildFile; fileRef = 82DA309D1B56A29800433975 /* WorklightAPI */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,7 +41,6 @@
 		18B4AFA2194DCB5700B43174 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		18B4AFA4194DD54500B43174 /* MyLogoutListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyLogoutListener.h; sourceTree = "<group>"; };
 		18B4AFA5194DD54500B43174 /* MyLogoutListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyLogoutListener.m; sourceTree = "<group>"; };
-		198D7A5C1AF7ABB40098EB36 /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
 		198D7A5E1AF7ABC30098EB36 /* IBMMobileFirstPlatformFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IBMMobileFirstPlatformFoundation.framework; path = WorklightAPI/Frameworks/IBMMobileFirstPlatformFoundation.framework; sourceTree = "<group>"; };
 		60595A221945E1050028C6DD /* FormBasedAuthObjC-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "FormBasedAuthObjC-Info.plist"; sourceTree = "<group>"; };
 		60EEC5D5194475770029E8CA /* FormBasedAuthObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormBasedAuthObjC.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,8 +66,9 @@
 		60EEC681194476D20029E8CA /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		60EEC68419449C960029E8CA /* MyConnectListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyConnectListener.h; sourceTree = "<group>"; };
 		60EEC68519449C960029E8CA /* MyConnectListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyConnectListener.m; sourceTree = "<group>"; };
-		8284B28C1AEE363E001B5389 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
 		8284B2901AEE368B001B5389 /* sqlcipher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = sqlcipher.framework; path = WorklightAPI/Frameworks/sqlcipher.framework; sourceTree = "<group>"; };
+		82DA309C1B56A29800433975 /* worklight.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = worklight.plist; sourceTree = "<group>"; };
+		82DA309D1B56A29800433975 /* WorklightAPI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = WorklightAPI; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +105,8 @@
 		60EEC5CC194475770029E8CA = {
 			isa = PBXGroup;
 			children = (
-				198D7A5C1AF7ABB40098EB36 /* WorklightAPI */,
-				8284B28C1AEE363E001B5389 /* worklight.plist */,
+				82DA309C1B56A29800433975 /* worklight.plist */,
+				82DA309D1B56A29800433975 /* WorklightAPI */,
 				60EEC5DE194475770029E8CA /* FormBasedAuthObjC */,
 				60EEC5D7194475770029E8CA /* Frameworks */,
 				60EEC5D6194475770029E8CA /* Products */,
@@ -226,7 +227,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8284B28E1AEE363E001B5389 /* worklight.plist in Resources */,
+				82DA309E1B56A29800433975 /* worklight.plist in Resources */,
+				82DA309F1B56A29800433975 /* WorklightAPI in Resources */,
 				60EEC5F1194475770029E8CA /* Images.xcassets in Resources */,
 				60EEC5E3194475770029E8CA /* InfoPlist.strings in Resources */,
 				60EEC5EC194475770029E8CA /* Main.storyboard in Resources */,
